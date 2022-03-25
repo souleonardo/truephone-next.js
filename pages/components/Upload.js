@@ -3,6 +3,7 @@ import { Image } from '@chakra-ui/react'
 
 export default function Upload() {
     return (
+      
 <Container 
   border='4px solid #3D3ADA'
   maxW='842px' h='468px'
@@ -15,7 +16,7 @@ export default function Upload() {
     align='center' 
     margin-top= '90px'
     fontSize='md'>  
-    
+
     <Container>
       <Heading>
         <Image src='../Head.svg' />

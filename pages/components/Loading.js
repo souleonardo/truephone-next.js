@@ -1,4 +1,4 @@
-import {Flex, Heading, Button, Container,Text, Link} from "@chakra-ui/react";
+import {Flex, Heading, Container,Text, Link} from "@chakra-ui/react";
 import { Spinner } from "@chakra-ui/react";
 import { Image } from '@chakra-ui/react'
  
@@ -38,9 +38,8 @@ export default function Loading() {
             color='#747474'
             pt='24px' 
             fontSize='xs'>
-            Você quer
-              <Link href="#" color={'#3D3ADA'}>
-                <u>cancelar e voltar ao início?</u>
+            Você quer <Link href="#" color={'#3D3ADA'}>
+                 <u>cancelar e voltar ao início?</u>
               </Link> 
             </Text>
        </Flex>   
