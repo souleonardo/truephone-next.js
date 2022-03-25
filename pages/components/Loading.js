@@ -18,7 +18,8 @@ export default function Loading() {
   fontSize='md'>  
     
       <Heading>
-        <Image src='../Load.svg' />
+        <Image 
+        src='../Load.svg' />
       </Heading>
 
     <Spinner
@@ -29,9 +30,7 @@ export default function Loading() {
       size='xl'
       mt={'33.85px'}
     />
-
-
-      
+   
     <Text 
     fontWeight={'500'} 
     color={'#747474'} 
